@@ -1,0 +1,24 @@
+print('โปรแกรมคำนวณเกรด')
+print('+++++++++++')
+score=float(input('ป้อนคะแนนที่ได้'))
+print('----------')
+if(score>=80):
+    print('ได้เกรด4')
+elif(score>=75):
+    print('ได้เกรด3.5')
+elif(score>=70):
+    print('ได้เกรด3')
+elif(score>=65):
+    print('ได้เกรด2.5')
+elif(score>=60):
+    print('ได้เกรด2')
+elif(score>=55):
+    print('ได้เกรด1.5')
+elif(score>=50):
+    print('ได้เกรด1')
+elif(score<50):
+    print('ได้เกรด0')
+    print('คุณต้องเรียนซ้ำ')
+print('----------')
+print('good buy')
+print('เขียนโดย ด.ช.วีรภัทร ธรรมะ เลขี่14 202')
